@@ -1,0 +1,12 @@
+s=set() #set is retain only unique value i.e you put (1,2,2) then you get only (1,2)
+#print(type(s))
+h=[1,2,3,4,5]
+s_from_list=set(h)
+print(s_from_list)
+print(type(s_from_list))
+#s.add(1)
+#s.add(2)
+#s.add(2)
+#s1=s.union({1,2,3,4})
+#s.remove(1)
+#print (min(s))
